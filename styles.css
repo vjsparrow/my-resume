@@ -72,8 +72,6 @@
       width: 100%;
     }
   }
-
-
 #bod {
     background-color:white;
 }
@@ -213,10 +211,6 @@
     font-family: 'Roboto Mono', monospace;
     text-shadow: 0 0 1px lightcyan;
     margin-bottom: 1px;
-}
-
-#resume-block {
-    display: flex;
 }
 
 .company-name {
