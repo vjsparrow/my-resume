@@ -2,6 +2,7 @@
     opacity: 0.7;
     cursor: pointer;
 }
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -72,18 +73,21 @@
     }
   }
 
+
 #bod {
     background-color:white;
 }
 
-.dp {
+#dp {
     background-color: cadetblue;
     border-radius: 50%;
+    margin-top: 1%;
 }
 
-.dp-block {
+#sidebar {
     background-color: cadetblue;
     padding: 1%;
+
 }
 
 .border-below-name {
@@ -96,7 +100,7 @@
     color: aliceblue;
     font-size: larger;
     font-weight: bolder;
-    margin-top: 20%;
+    margin-top: 35%;
     border-bottom: 1px solid white;
     font-size: 1.5vw;
     text-shadow: 0 0 1px black;
@@ -116,7 +120,7 @@
     .contact-details {
         font-size: 2px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 2px;
     }
  }
@@ -125,7 +129,7 @@
     .contact-details {
         font-size: 2px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 2px;
     }
  }
@@ -134,7 +138,7 @@
     .contact-details {
         font-size: 5px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 5px;
     }
  }
@@ -144,7 +148,7 @@
     .contact-details {
         font-size: 8px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 8px;
     }
 }
@@ -155,7 +159,7 @@
     .contact-details {
         font-size: 11px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 11px;
     }
 }
@@ -165,9 +169,10 @@
     .contact-details {
     font-size: 13px;
     }
-.skill-details {
+    #expertise-topics {
     font-size: 13px;
     }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -175,7 +180,7 @@
     .contact-details {
         font-size: 15px;
     }
-    .skill-details {
+    #expertise-topics {
         font-size: 15px;
     }
 }
