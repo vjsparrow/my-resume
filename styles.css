@@ -267,8 +267,6 @@
 }
 
 .left-img1 {
-    display: flex;
-    justify-content: start;
     margin-left: -1vw;
     width: 2vw;
     opacity: 0.4;
