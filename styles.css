@@ -98,6 +98,7 @@
     font-size: 1.5vw;
     text-shadow: 0 0 1px black;
     margin-bottom: 0.5vw;
+    z-index: -1;
 }
 
 .skill-details {
@@ -363,28 +364,32 @@
 
 /* unvisited link */
 a:link {
-    text-decoration: bold;
+    text-decoration:none;
     color: black;
     text-shadow: 0 0 1px darkcyan;
-  }
+}
   
-  /* visited link */
-  a:visited {
+/* visited link */
+a:visited {
     text-decoration: none;
     color: black;
     text-shadow: 0 0 1px darkcyan;
-  }
+}
   
-  /* mouse over link */
-  a:hover {
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: rgb(190, 6, 6);
+    text-shadow: 0 0 1px darkcyan;
+}
+  
+/* selected link */
+a:active {
     text-decoration: none;
     color: black;
     text-shadow: 0 0 1px darkcyan;
-  }
-  
-  /* selected link */
-  a:active {
-    text-decoration: none;
-    color: black;
-    text-shadow: 0 0 1px darkcyan;
-  }
+}
+
+#tester {
+    margin-top: 2.2vw;
+}
