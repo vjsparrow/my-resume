@@ -300,6 +300,12 @@
     margin-top: 1vw;
 }
 
+#quote {
+    text-shadow: 0 0 0.5px green;
+    margin-top: 1.7vw;
+    text-align: right;
+}
+
 .comp-duration {
     margin-top: 1vw;
     font-family: 'Roboto Mono', monospace;
