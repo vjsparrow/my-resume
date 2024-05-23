@@ -1598,4 +1598,4 @@ let new_count = (quotes, quote_content, quote_of_the_day) => {
   }
 }
 
-setInterval(new_count, 10000, quotes, quote_content, quote_of_the_day);
+setInterval(new_count, 1000, quotes, quote_content, quote_of_the_day);
