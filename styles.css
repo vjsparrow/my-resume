@@ -1,3 +1,8 @@
+#date {
+    text-align: right;
+    padding-top: 0.4vw;
+}
+
 #dp:hover {
     opacity: 0.7;
     cursor: pointer;
@@ -298,12 +303,35 @@
 #my-name {
     text-shadow: 0 0 1px green;
     margin-top: 1vw;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 #quote {
     text-shadow: 0 0 0.5px green;
     margin-top: 1.7vw;
     text-align: right;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .comp-duration {
@@ -335,6 +363,17 @@
 
 #designation {
     text-shadow: 0 0 1px cadetblue;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #res-main {
@@ -399,3 +438,4 @@ a:active {
 #tester {
     margin-top: 2.2vw;
 }
+
